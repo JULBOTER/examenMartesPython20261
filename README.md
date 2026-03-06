@@ -1,5 +1,7 @@
 # Taller evaluativo #1 🤖
 
+Envio: https://forms.gle/5xvRMxywDVAyGzCP9
+
 ## Contexto
 Una empresa de servicios públicos quiere un prototipo en Python para gestionar lecturas numéricas y datos básicos de usuarios.  
 El objetivo del taller es practicar **listas**, **diccionarios**, **métodos de listas** y **funciones (`def`)**, junto con un flujo simple de **registro/login con intentos limitados**.
