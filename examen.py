@@ -146,12 +146,13 @@ def eliminar_usuario():
 
 # ORDENAR USUARIOS POR CONSUMO
 
+def obtener_promedio(usuario):
+    """Devuelve el promedio de consumo de un usuario"""
+    return calcular_promedio(usuario["consumoEnergetico"])
+
 def ordenar_por_consumo():
-
-    usuarios_servicio.sort(key=lambda u: calcular_promedio(u["consumoEnergetico"]))
-
+    usuarios_servicio.sort(key=obtener_promedio)
     print("\nUsuarios ordenados por consumo promedio\n")
-
     consultar_usuarios()
 
 
