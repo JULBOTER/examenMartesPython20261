@@ -39,7 +39,7 @@ def generar_consumos():
 
     lista = []
 
-    for i in range(30):
+    for i in range(500):
 
         numero = random.randint(100,500)
 
